@@ -6,6 +6,7 @@ public class PersonMain {
 	public static void main(String[] args) {
 		Person person1 = new Person("Adarsh", 25);
 		Person person2 = new Person("Adarsh", 25);
+		//cehckl string and streing 2
 		
 		//this will be false because objects reference is different
 		System.out.println(person1 == person2); //will this be true or false?

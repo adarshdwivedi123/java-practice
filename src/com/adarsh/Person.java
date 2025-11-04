@@ -28,10 +28,10 @@ public class Person {
 	}
 
 //uncomment method below
-//	@Override
-//	public boolean equals(Object person) {
-//		Person per = (Person) person;
-//		return per.getAge() == this.age && per.getName().equals(this.name);
-//	}
+	@Override
+	public boolean equals(Object person) {
+		Person per = (Person) person;
+		return per.getAge() == this.age && per.getName().equals(this.name);
+	}
 
 }

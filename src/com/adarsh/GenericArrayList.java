@@ -7,10 +7,10 @@ public class GenericArrayList {
 
 	public static void main(String[] args) {
 		List<String> strList = new ArrayList<>();
-		strList.add("new");
-//		strList.add(1);
+	strList.add("new");
+//	strList.add(1);
 		
-		String str = strList.get(1);
+		String str = strList.get(0);
 		
 		List genList = new ArrayList();
 		genList.add("new");
